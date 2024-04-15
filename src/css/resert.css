@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.animar {
+    font-size: 45px;
+    margin-left: 10px;
+    color: rgba(255, 0, 0, 0.676);
+    border-right: 5px solid #fff;
+    width: 17.4ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: palavra 2s steps(15), escrevendo 0.2s infinite step-end alternate ;
+}
+@keyframes palavra {
+    from {
+        width: 0;
+    }
+}
+@keyframes escrevendo {
+    50% {
+        border-color: transparent;
+    }
+}
+.sc-cUEOzv{
+    position: relative;
+    left: 1170px;
+    top: 190px;
+    animation: 2.1s linear 0s infinite alternate-reverse none running iMQett;
+}
+@keyframes iMQett {
+    from {top: 110px;}
+    to {top: 165px;}
+}
