@@ -37,11 +37,20 @@
         width: 320px;
     }
 }
+@media (max-width: 1165px){
+    .projetos{
+        height: 1750px;
+    }
+}
+
 @media (max-width: 1077px){
     .conteudo .titulo{
         left: 0px;
         padding: 80px;
         bottom: 10px;
+    }
+    .navegacao .list-nav {
+        gap: 45px;
     }
     .sc-cUEOzv{
         left: 675px;
@@ -56,9 +65,6 @@
     }
 }
 @media (max-width: 1015px){
-    .navegacao .list-nav{
-        gap: 70px;
-    }
     .languages{
         font-size: 14px;
     }
@@ -67,12 +73,28 @@
         height: 45px;
     }
 }
+@media (max-width: 956px){
+    .navegacao .list-nav{
+        gap: 30px;
+        font-size: 30px;
+    }
+}
+@media (max-width: 900px){
+    .navegacao .list-nav{
+        gap: 30px;
+        font-size: 25px;
+    }
+}
 @media (max-width: 949px){
     .about-me{
         height: 150px;
     }
     .sobremin{
         height: 1100px;
+    }
+    .apresentation{
+        align-items: center;
+        height: 340px;
     }
 }
 @media (max-width: 865px){
@@ -87,8 +109,8 @@
         width: 360px;
     }
     .navegacao .list-nav{
-        gap: 50px;
-        font-size: 29px;
+        gap: 30px;
+        font-size: 25px;
     }
     header{
         height: 80px;
@@ -129,6 +151,10 @@
     .animar{
         border-right: 3px solid #fff;
     }
+    .navegacao .list-nav{
+        gap: 20px;
+        font-size: 23px;
+    }
 }
 @media (max-width: 739px){
     .projetos .container-projetos{
@@ -162,7 +188,7 @@
         z-index: 1;
         clip-path: circle(100px at 90% -15%);
         transition: 1s ease-out;
-        gap: 80px;
+        gap: 40px;
         pointer-events: none;
         border-left: 1px solid #fff ; 
         border-bottom: 1px solid #fff ; 
@@ -194,6 +220,9 @@
         height: 35px;
         gap: 1px;
     }
+    .projetos .container-projetos{
+        gap: 25px;
+    }
 }
 @media (max-width: 635px){
     .img{
@@ -210,6 +239,14 @@
     }
     .subtitle{
         width: 18.4ch;
+    }
+    .projetos .container-projetos{
+        gap: 10px;
+    }
+}
+@media (max-width: 613px){
+    .projetos{
+        height: 2250px;
     }
 }
 @media (max-width: 593px){
@@ -254,6 +291,13 @@
         font-size: 18px;
         width: 499px;
     }
+    .buttonCV {
+        width: 220px;
+        font-size: 22px;
+    }
+    .svg_curriculo{
+        height: 35px;
+    }
 }
 @media (max-width: 490px){
     .conteudo .titulo{
@@ -278,6 +322,23 @@
     }
     .subtitle{
         width: 15.4ch;
+    }
+    .apresentation{
+        font-size: 20px;
+        width: 419px;
+    }
+    .picture-about-me{
+        margin-top: 50px;
+    }
+    .about-me{
+        height: 120px;
+    }
+    .buttonCV {
+        width: 199px;
+        font-size: 20px;
+    }
+    .svg_curriculo{
+        height: 30px;
     }
 }
 @media (max-width: 490px){
@@ -327,9 +388,6 @@
     }
     .picture-about-me{
         margin-top: 50px;
-    }
-    .sobremin{
-        height: 700px;
     }
     .apresentation{
         width: 490px;
@@ -395,6 +453,9 @@
     }
     main{
         height: 700px;
+    }
+    .projetos {
+        padding: 510px 0 70px;
     }
 }
 @media (max-width: 360px){
